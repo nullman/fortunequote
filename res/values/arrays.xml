@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="topics">
+    <item>art</item>
+    <item>ascii_art</item>
+    <item>bofh_excuses</item>
+    <item>computers</item>
+    <item>cookie</item>
+    <item>debian</item>
+    <item>debian_hints</item>
+    <item>definitions</item>
+    <item>disclaimer</item>
+    <item>drugs</item>
+    <item>education</item>
+    <item>ethnic</item>
+    <item>food</item>
+    <item>fortunes</item>
+    <item>goedel</item>
+    <item>humorists</item>
+    <item>kids</item>
+    <item>knghtbrd</item>
+    <item>law</item>
+    <item>linux</item>
+    <item>linuxcookie</item>
+    <item>literature</item>
+    <item>love</item>
+    <item>magic</item>
+    <item>medicine</item>
+    <item>men_women</item>
+    <item>miscellaneous</item>
+    <item>news</item>
+    <item>paradoxum</item>
+    <item>people</item>
+    <item>perl</item>
+    <item>pets</item>
+    <item>platitudes</item>
+    <item>politics</item>
+    <item>riddles</item>
+    <item>science</item>
+    <item>songs_poems</item>
+    <item>sports</item>
+    <item>startrek</item>
+    <item>tao</item>
+    <item>translate_me</item>
+    <item>wisdom</item>
+    <item>work</item>
+    <item>zippy</item>
+  </string-array>
+  <string-array name="topics_values">
+    <item>0</item>
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+    <item>6</item>
+    <item>7</item>
+    <item>8</item>
+    <item>9</item>
+    <item>10</item>
+    <item>11</item>
+    <item>12</item>
+    <item>13</item>
+    <item>14</item>
+    <item>15</item>
+    <item>16</item>
+    <item>17</item>
+    <item>18</item>
+    <item>19</item>
+    <item>20</item>
+    <item>21</item>
+    <item>22</item>
+    <item>23</item>
+    <item>24</item>
+    <item>25</item>
+    <item>26</item>
+    <item>27</item>
+    <item>28</item>
+    <item>29</item>
+    <item>30</item>
+    <item>31</item>
+    <item>32</item>
+    <item>33</item>
+    <item>34</item>
+    <item>35</item>
+    <item>36</item>
+    <item>37</item>
+    <item>38</item>
+    <item>39</item>
+    <item>40</item>
+    <item>41</item>
+    <item>42</item>
+    <item>43</item>
+  </string-array>
+  <string-array name="fontTypes">
+    <item>Normal</item>
+    <item>Sans</item>
+    <item>Serif</item>
+    <item>Monospace</item>
+  </string-array>
+  <string-array name="fontTypes_values">
+    <item>normal</item>
+    <item>sans</item>
+    <item>serif</item>
+    <item>monospace</item>
+  </string-array>
+  <string-array name="fontStyles">
+    <item>Normal</item>
+    <item>Bold</item>
+    <item>Italic</item>
+    <item>Bold/Italic</item>
+  </string-array>
+  <string-array name="fontStyles_values">
+    <item>0</item>
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+  </string-array>
+  <string-array name="fontSizes">
+    <item>8</item>
+    <item>10</item>
+    <item>12</item>
+    <item>14</item>
+    <item>16</item>
+    <item>18</item>
+    <item>20</item>
+    <item>24</item>
+    <item>28</item>
+    <item>32</item>
+  </string-array>
+  <string-array name="fontSizes_values">
+    <item>8</item>
+    <item>10</item>
+    <item>12</item>
+    <item>14</item>
+    <item>16</item>
+    <item>18</item>
+    <item>20</item>
+    <item>24</item>
+    <item>28</item>
+    <item>32</item>
+  </string-array>
+  <string-array name="widget_frequencies">
+    <item>15 Minutes</item>
+    <item>30 Minutes</item>
+    <item>1 Hour</item>
+    <item>2 Hours</item>
+    <item>4 Hours</item>
+    <item>8 Hours</item>
+    <item>12 Hours</item>
+    <item>1 Day</item>
+  </string-array>
+  <string-array name="widget_frequencies_values">
+    <item>15</item>
+    <item>30</item>
+    <item>60</item>
+    <item>120</item>
+    <item>240</item>
+    <item>480</item>
+    <item>720</item>
+    <item>1440</item>
+  </string-array>
+  <string-array name="notification_frequencies">
+    <item>15 Minutes</item>
+    <item>30 Minutes</item>
+    <item>1 Hour</item>
+    <item>2 Hours</item>
+    <item>4 Hours</item>
+    <item>8 Hours</item>
+    <item>12 Hours</item>
+    <item>1 Day</item>
+  </string-array>
+  <string-array name="notification_frequencies_values">
+    <item>15</item>
+    <item>30</item>
+    <item>60</item>
+    <item>120</item>
+    <item>240</item>
+    <item>480</item>
+    <item>720</item>
+    <item>1440</item>
+  </string-array>
+</resources>

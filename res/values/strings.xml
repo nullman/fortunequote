@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- general strings -->
+  <string name="app_label">FortuneQuote</string>
+  <string name="app_title">FortuneQuote</string>
+  <string name="ok">OK</string>
+  <string name="cancel">Cancel</string>
+  <string name="legal_text">FortuneQuote is Copyright ©2011 Kyle W. T. Sherman.</string>
+  <string name="gpl_text">\
+This program is free software: you can redistribute
+it and/or modify it under the terms of the <a href="http://www.gnu.org/licenses/">GNU
+General Public License</a> as published by the Free
+Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+</string>
+  <string name="welcome_title">Welcome to FortuneQuote</string>
+  <string name="welcome_text">\
+FortuneQuote is a version of the old *nix fortune
+program for Android.  Clicking anywhere on the
+screen will show a new random fortune.  Using
+the Preferences selection in the menu, you may
+change various options including picking which
+fortune topics will be queried.  There are 44
+topics and over 15,000 fortunes.\n\n\
+The first time this program is run, the fortunes
+will load in a background task, however you can
+start seeing some of them after a few seconds.
+</string>
+  <string name="update_title">FortuneQuote Update Log</string>
+  <string name="update_text">\
+The following changes have been made in this update:
+</string>
+  <string name="version_prefix">Version: </string>
+  <string name="no_quote_text">\
+Waiting for fortunes to load.  This only happens
+the first time you run FortuneQuote and should not
+take too long.\n\n\
+Wait a few seconds, then try clicking the screen
+for a new fortune.\n\n\
+Press the menu button for more options.
+</string>
+  <string name="no_topics_text">\
+No topics have been selected.  Please select
+some topics using the Preferences selection in
+the menu.
+</string>
+  <string name="no_quote_for_topics_text">\
+The topics you have selected have not finished loading.\n\n\
+You can either wait for them to finish loading or select some
+topics closer to the top of the list.
+</string>
+  <!-- menu strings -->
+  <string name="about_label">About</string>
+  <string name="about_title">About FortuneQuote</string>
+  <string name="about_text">\
+FortuneQuote is a version of the old *nix fortune
+program for Android.  Clicking anywhere on the
+screen will show a new random fortune.  Using
+the Preferences selection in the menu, you may
+change various options including picking which
+fortune topics will be queried.  There are 44
+topics and over 15,000 fortunes.
+</string>
+  <string name="about_shortcut">a</string>
+  <string name="preferences_label">Preferences</string>
+  <string name="preferences_title">FortuneQuote Preferences</string>
+  <string name="preferences_shortcut">p</string>
+  <string name="send_label">Send Fortune</string>
+  <string name="send_shortcut">s</string>
+  <string name="send_title">Send Fortune Using</string>
+  <string name="copy_to_clipboard_label">Copy To Clipboard</string>
+  <string name="copy_to_clipboard_shortcut">c</string>
+  <string name="copy_to_clipboard_toast">Fortune copied to the clipboard.</string>
+  <string name="share_app_label">Share App</string>
+  <string name="share_app_title">Share App Using</string>
+  <string name="share_app_shortcut">h</string>
+  <string name="share_app_subject">Android FortuneQuote</string>
+  <string name="share_app_text">\
+Give this FortuneQuote application a try.  Search
+in the Android Market for \'FortuneQuote\' or open
+http://market.android.com/search?q=pname:com.nullware.android.fortunequote
+in your phone\'s browser.
+</string>
+  <string name="exit_label">Exit</string>
+  <string name="exit_shortcut">x</string>
+  <!-- preferences strings -->
+  <string name="code_version_key">codeVersion</string>
+  <string name="current_quote_key">currentQuote</string>
+  <string name="preference_category_fortune">Fortune</string>
+  <string name="topics_key">topics</string>
+  <string name="topics_title">Topics</string>
+  <string name="topics_summary">Select topics to query.</string>
+  <string name="topics_default">0|4|7|8|9|10|11|12|13|14|15|16|17|18|21|22|23|24|25|26|27|28|29|31|32|33|34|35|36|37|38|39|40|41|42|43</string>
+  <string name="randomTopic_key">randomTopic</string>
+  <string name="randomTopic_title">Random Topic</string>
+  <string name="randomTopic_summary">First select a topic at random, then an entry at random.</string>
+  <string name="randomTopic_default">false</string>
+  <string name="preference_category_display">Display</string>
+  <string name="fontType_key">fontType</string>
+  <string name="fontType_title">Font Type</string>
+  <string name="fontType_summary">Select the type of font to use.</string>
+  <string name="fontType_default">normal</string>
+  <string name="fontStyle_key">fontStyle</string>
+  <string name="fontStyle_title">Font Style</string>
+  <string name="fontStyle_summary">Select the style of font to use.</string>
+  <string name="fontStyle_default">1</string>
+  <string name="fontSize_key">fontSize</string>
+  <string name="fontSize_title">Font Size</string>
+  <string name="fontSize_summary">Select the size of the font to use.</string>
+  <string name="fontSize_default">18</string>
+  <string name="preference_category_notification">Notification</string>
+  <string name="notification_active_key">notification_active</string>
+  <string name="notification_active_title">Notification Active</string>
+  <string name="notification_active_summary">Receive a periodic fortune notification.</string>
+  <string name="notification_active_default">false</string>
+  <string name="notification_frequency_key">notification_frequency</string>
+  <string name="notification_frequency_title">Notification Frequency</string>
+  <string name="notification_frequency_summary">Select the frequency of the notification.</string>
+  <string name="notification_frequency_default">60</string>
+  <string name="notification_startup_key">notification_startup</string>
+  <string name="notification_startup_title">Notification On Startup</string>
+  <string name="notification_startup_summary">Receive a notification on device startup.</string>
+  <string name="notification_startup_default">false</string>
+  <!-- quote data strings -->
+  <string name="quoteTopicCount_prefix_key">quoteTopicCount_</string>
+  <string name="quoteCount_key">quoteCount</string>
+  <!-- widget strings -->
+  <string name="widget_label">FortuneQuote</string>
+  <string name="widget_preferences_title">FortuneQuote Preferences</string>
+  <string name="preference_category_widget">Widget</string>
+  <string name="widget_frequency_key">widget_frequency</string>
+  <string name="widget_frequency_title">Widget Frequency</string>
+  <string name="widget_frequency_summary">Select the widget update frequency.</string>
+  <string name="widget_frequency_default">60</string>
+  <string name="widget_topics_key">widget_topics</string>
+  <string name="widget_randomTopic_key">widget_randomTopic</string>
+  <string name="widget_fontType_key">widget_fontType</string>
+  <string name="widget_fontType_default">normal</string>
+  <string name="widget_fontStyle_key">widget_fontStyle</string>
+  <string name="widget_fontStyle_default">0</string>
+  <string name="widget_fontSize_key">widget_fontSize</string>
+  <string name="widget_fontSize_default">14</string>
+  <!-- notification strings -->
+  <string name="notification_label">FortuneQuote</string>
+  <string name="notification_title">FortuneQuote</string>
+</resources>

@@ -1,0 +1,38 @@
+================================================================================
+FortuneQuote
+================================================================================
+
+FortuneQuote is a version of the old *nix fortune program for Android.
+
+Some features:
+
+ * Display random fortunes from 44 topics and over 15,000 fortunes
+ * Create fortune widgets on the home screen with periodic updates
+ * Set a periodic notification with a new fortune
+ * Pick which topics to pull from
+ * Adjust the font type, style, and size (in main app only)
+
+The first time you run the application it loads the fortunes into its internal
+database. This process may take about 5 minutes to complete, however, you can
+use the application as soon as the first topic has been loaded (which is
+usually within 10-30 seconds).
+
+--------------------------------------------------------------------------------
+Eclipse Setup
+--------------------------------------------------------------------------------
+
+Assuming you have the Android SDK installed and Eclipse setup to use it, do
+the following from within Eclipse:
+
+File ==> New ==> Android Project
+
+Project name: FortuneQuote
+
+Create project from existing source and set the location to your
+FortuneQuote/trunk directory.
+
+Click Finish and you should be all setup.
+
+Once you have an emulator running, just run the application.
+
+================================================================================

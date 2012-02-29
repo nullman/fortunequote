@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--  <PreferenceCategory android:title="@string/preference_category_widget">-->
+  <!--    <ListPreference-->
+  <!--        android:key="@string/widget_frequency_key"-->
+  <!--        android:title="@string/widget_frequency_title"-->
+  <!--        android:summary="@string/widget_frequency_summary"-->
+  <!--        android:entries="@array/widget_frequencies"-->
+  <!--        android:entryValues="@array/widget_frequencies_values"-->
+  <!--        android:defaultValue="@string/widget_frequency_default"-->
+  <!--        />-->
+  <!--  </PreferenceCategory>-->
+  <PreferenceCategory android:title="@string/preference_category_fortune">
+    <com.nullware.android.fortunequote.ListPreferenceMultiSelect
+        android:key="@string/widget_topics_key"
+        android:title="@string/topics_title"
+        android:dialogTitle="@string/topics_title"
+        android:summary="@string/topics_summary"
+        android:entries="@array/topics"
+        android:entryValues="@array/topics_values"
+        android:defaultValue="@string/topics_default"
+        />
+    <CheckBoxPreference
+        android:key="@string/widget_randomTopic_key"
+        android:title="@string/randomTopic_title"
+        android:summary="@string/randomTopic_summary"
+        android:defaultValue="@string/randomTopic_default"
+        />
+  </PreferenceCategory>
+  <!--  <PreferenceCategory android:title="@string/preference_category_display">-->
+  <!--    <ListPreference-->
+  <!--        android:key="@string/widget_fontType_key"-->
+  <!--        android:title="@string/fontType_title"-->
+  <!--        android:summary="@string/fontType_summary"-->
+  <!--        android:entries="@array/fontTypes"-->
+  <!--        android:entryValues="@array/fontTypes_values"-->
+  <!--        android:defaultValue="@string/widget_fontType_default"-->
+  <!--        />-->
+  <!--    <ListPreference-->
+  <!--        android:key="@string/widget_fontStyle_key"-->
+  <!--        android:title="@string/fontStyle_title"-->
+  <!--        android:summary="@string/fontStyle_summary"-->
+  <!--        android:entries="@array/fontStyles"-->
+  <!--        android:entryValues="@array/fontStyles_values"-->
+  <!--        android:defaultValue="@string/widget_fontStyle_default"-->
+  <!--        />-->
+  <!--    <ListPreference-->
+  <!--        android:key="@string/widget_fontSize_key"-->
+  <!--        android:title="@string/fontSize_title"-->
+  <!--        android:summary="@string/fontSize_summary"-->
+  <!--        android:entries="@array/fontSizes"-->
+  <!--        android:entryValues="@array/fontSizes_values"-->
+  <!--        android:defaultValue="@string/widget_fontSize_default"-->
+  <!--        />-->
+  <!--  </PreferenceCategory>-->
+</PreferenceScreen>

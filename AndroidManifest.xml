@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nullware.android.fortunequote"
+    android:versionCode="1"
+    android:versionName="1.0.0"
+    >
+  <application
+      android:label="@string/app_label"
+      android:icon="@drawable/ic_launcher">
+    <activity
+        android:name=".FortuneQuote"
+        android:label="@string/app_label">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+      <intent-filter>
+        <category android:name="android.intent.category.DEFAULT" />
+        <action android:name="android.intent.action.VIEW" />
+        <data android:mimeType="text/plain" />
+      </intent-filter>
+    </activity>
+    <activity
+        android:name=".Preferences"
+        android:label="@string/preferences_label">
+    </activity>
+    <receiver
+        android:name=".Widget"
+        android:label="@string/widget_label">
+      <intent-filter>
+        <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+      </intent-filter>
+      <meta-data
+          android:name="android.appwidget.provider"
+          android:resource="@xml/widget" />
+    </receiver>
+    <activity
+        android:name=".WidgetConfigure"
+        android:label="@string/widget_label">
+      <intent-filter>
+        <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+      </intent-filter>
+    </activity>
+    <service
+        android:name=".WidgetService"
+        android:label="@string/widget_label" />
+    <service
+        android:name=".NotificationService"
+        android:label="@string/notification_label" />
+    <receiver
+        android:name=".SystemStartup"
+        android:label="@string/app_label">
+      <intent-filter>
+        <action android:name="android.intent.action.BOOT_COMPLETED" />
+      </intent-filter>
+    </receiver>
+  </application>
+  <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+  <uses-sdk android:minSdkVersion="3" />
+</manifest>
