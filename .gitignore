@@ -1,1 +1,4 @@
+bin/*
+doc/*
+gen/*
 local.properties
